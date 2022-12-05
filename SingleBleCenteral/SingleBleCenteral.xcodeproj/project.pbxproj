@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B16DFDA2939976900B49376 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B16DFD92939976900B49376 /* BluetoothManager.swift */; };
+		1B16DFDD293997EA00B49376 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B16DFDC293997EA00B49376 /* MainViewModel.swift */; };
+		1B16DFE12939982E00B49376 /* DeviceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B16DFE02939982E00B49376 /* DeviceViewModel.swift */; };
+		1B16DFE32939983A00B49376 /* DeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B16DFE22939983A00B49376 /* DeviceView.swift */; };
+		1B16DFE52939984D00B49376 /* DevicesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B16DFE42939984D00B49376 /* DevicesListView.swift */; };
+		1B16DFE72939985A00B49376 /* DevicesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B16DFE62939985A00B49376 /* DevicesListViewModel.swift */; };
+		1B16DFEC2939ADA600B49376 /* DeviceState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B16DFEA2939ADA600B49376 /* DeviceState.swift */; };
+		1B99BA3F293869DA00E09285 /* SingleBleCenteralApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B99BA3E293869DA00E09285 /* SingleBleCenteralApp.swift */; };
+		1B99BA41293869DA00E09285 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B99BA40293869DA00E09285 /* ContentView.swift */; };
+		1B99BA43293869DB00E09285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B99BA42293869DB00E09285 /* Assets.xcassets */; };
+		1B99BA46293869DB00E09285 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B99BA45293869DB00E09285 /* Preview Assets.xcassets */; };
+		1B99BA50293869DB00E09285 /* SingleBleCenteralTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B99BA4F293869DB00E09285 /* SingleBleCenteralTests.swift */; };
+		1B99BA5A293869DB00E09285 /* SingleBleCenteralUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B99BA59293869DB00E09285 /* SingleBleCenteralUITests.swift */; };
+		1B99BA5C293869DB00E09285 /* SingleBleCenteralUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B99BA5B293869DB00E09285 /* SingleBleCenteralUITestsLaunchTests.swift */; };
+		1B99BA6A29386A3D00E09285 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B99BA6929386A3C00E09285 /* CoreBluetooth.framework */; };
+		1B99BA6E2938860500E09285 /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B99BA6D2938860500E09285 /* MainButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B99BA4C293869DB00E09285 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B99BA33293869DA00E09285 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B99BA3A293869DA00E09285;
+			remoteInfo = SingleBleCenteral;
+		};
+		1B99BA56293869DB00E09285 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B99BA33293869DA00E09285 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B99BA3A293869DA00E09285;
+			remoteInfo = SingleBleCenteral;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B16DFD92939976900B49376 /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		1B16DFDC293997EA00B49376 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		1B16DFE02939982E00B49376 /* DeviceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceViewModel.swift; sourceTree = "<group>"; };
+		1B16DFE22939983A00B49376 /* DeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceView.swift; sourceTree = "<group>"; };
+		1B16DFE42939984D00B49376 /* DevicesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesListView.swift; sourceTree = "<group>"; };
+		1B16DFE62939985A00B49376 /* DevicesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesListViewModel.swift; sourceTree = "<group>"; };
+		1B16DFEA2939ADA600B49376 /* DeviceState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceState.swift; sourceTree = "<group>"; };
+		1B99BA3B293869DA00E09285 /* SingleBleCenteral.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingleBleCenteral.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B99BA3E293869DA00E09285 /* SingleBleCenteralApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleBleCenteralApp.swift; sourceTree = "<group>"; };
+		1B99BA40293869DA00E09285 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1B99BA42293869DB00E09285 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B99BA45293869DB00E09285 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1B99BA4B293869DB00E09285 /* SingleBleCenteralTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingleBleCenteralTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B99BA4F293869DB00E09285 /* SingleBleCenteralTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleBleCenteralTests.swift; sourceTree = "<group>"; };
+		1B99BA55293869DB00E09285 /* SingleBleCenteralUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingleBleCenteralUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B99BA59293869DB00E09285 /* SingleBleCenteralUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleBleCenteralUITests.swift; sourceTree = "<group>"; };
+		1B99BA5B293869DB00E09285 /* SingleBleCenteralUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleBleCenteralUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1B99BA6929386A3C00E09285 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		1B99BA6C2938772A00E09285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1B99BA6D2938860500E09285 /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B99BA38293869DA00E09285 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B99BA6A29386A3D00E09285 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B99BA48293869DB00E09285 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B99BA52293869DB00E09285 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B16DFDB293997D700B49376 /* View 1 */ = {
+			isa = PBXGroup;
+			children = (
+				1B99BA40293869DA00E09285 /* ContentView.swift */,
+				1B16DFDC293997EA00B49376 /* MainViewModel.swift */,
+			);
+			path = "View 1";
+			sourceTree = "<group>";
+		};
+		1B16DFDE2939980D00B49376 /* DevicesList */ = {
+			isa = PBXGroup;
+			children = (
+				1B16DFE42939984D00B49376 /* DevicesListView.swift */,
+				1B16DFE62939985A00B49376 /* DevicesListViewModel.swift */,
+			);
+			path = DevicesList;
+			sourceTree = "<group>";
+		};
+		1B16DFDF2939981600B49376 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				1B16DFE02939982E00B49376 /* DeviceViewModel.swift */,
+				1B16DFE22939983A00B49376 /* DeviceView.swift */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		1B16DFE82939AD6F00B49376 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1B16DFEA2939ADA600B49376 /* DeviceState.swift */,
+				1B16DFD92939976900B49376 /* BluetoothManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1B99BA32293869DA00E09285 = {
+			isa = PBXGroup;
+			children = (
+				1B99BA3D293869DA00E09285 /* SingleBleCenteral */,
+				1B99BA4E293869DB00E09285 /* SingleBleCenteralTests */,
+				1B99BA58293869DB00E09285 /* SingleBleCenteralUITests */,
+				1B99BA3C293869DA00E09285 /* Products */,
+				1B99BA6829386A3C00E09285 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1B99BA3C293869DA00E09285 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B99BA3B293869DA00E09285 /* SingleBleCenteral.app */,
+				1B99BA4B293869DB00E09285 /* SingleBleCenteralTests.xctest */,
+				1B99BA55293869DB00E09285 /* SingleBleCenteralUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B99BA3D293869DA00E09285 /* SingleBleCenteral */ = {
+			isa = PBXGroup;
+			children = (
+				1B99BA3E293869DA00E09285 /* SingleBleCenteralApp.swift */,
+				1B99BA6D2938860500E09285 /* MainButton.swift */,
+				1B16DFE82939AD6F00B49376 /* Models */,
+				1B16DFDF2939981600B49376 /* Device */,
+				1B16DFDE2939980D00B49376 /* DevicesList */,
+				1B16DFDB293997D700B49376 /* View 1 */,
+				1B99BA6C2938772A00E09285 /* Info.plist */,
+				1B99BA42293869DB00E09285 /* Assets.xcassets */,
+				1B99BA44293869DB00E09285 /* Preview Content */,
+			);
+			path = SingleBleCenteral;
+			sourceTree = "<group>";
+		};
+		1B99BA44293869DB00E09285 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1B99BA45293869DB00E09285 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1B99BA4E293869DB00E09285 /* SingleBleCenteralTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B99BA4F293869DB00E09285 /* SingleBleCenteralTests.swift */,
+			);
+			path = SingleBleCenteralTests;
+			sourceTree = "<group>";
+		};
+		1B99BA58293869DB00E09285 /* SingleBleCenteralUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B99BA59293869DB00E09285 /* SingleBleCenteralUITests.swift */,
+				1B99BA5B293869DB00E09285 /* SingleBleCenteralUITestsLaunchTests.swift */,
+			);
+			path = SingleBleCenteralUITests;
+			sourceTree = "<group>";
+		};
+		1B99BA6829386A3C00E09285 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B99BA6929386A3C00E09285 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B99BA3A293869DA00E09285 /* SingleBleCenteral */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B99BA5F293869DB00E09285 /* Build configuration list for PBXNativeTarget "SingleBleCenteral" */;
+			buildPhases = (
+				1B99BA37293869DA00E09285 /* Sources */,
+				1B99BA38293869DA00E09285 /* Frameworks */,
+				1B99BA39293869DA00E09285 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SingleBleCenteral;
+			productName = SingleBleCenteral;
+			productReference = 1B99BA3B293869DA00E09285 /* SingleBleCenteral.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B99BA4A293869DB00E09285 /* SingleBleCenteralTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B99BA62293869DB00E09285 /* Build configuration list for PBXNativeTarget "SingleBleCenteralTests" */;
+			buildPhases = (
+				1B99BA47293869DB00E09285 /* Sources */,
+				1B99BA48293869DB00E09285 /* Frameworks */,
+				1B99BA49293869DB00E09285 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B99BA4D293869DB00E09285 /* PBXTargetDependency */,
+			);
+			name = SingleBleCenteralTests;
+			productName = SingleBleCenteralTests;
+			productReference = 1B99BA4B293869DB00E09285 /* SingleBleCenteralTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B99BA54293869DB00E09285 /* SingleBleCenteralUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B99BA65293869DB00E09285 /* Build configuration list for PBXNativeTarget "SingleBleCenteralUITests" */;
+			buildPhases = (
+				1B99BA51293869DB00E09285 /* Sources */,
+				1B99BA52293869DB00E09285 /* Frameworks */,
+				1B99BA53293869DB00E09285 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B99BA57293869DB00E09285 /* PBXTargetDependency */,
+			);
+			name = SingleBleCenteralUITests;
+			productName = SingleBleCenteralUITests;
+			productReference = 1B99BA55293869DB00E09285 /* SingleBleCenteralUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B99BA33293869DA00E09285 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					1B99BA3A293869DA00E09285 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					1B99BA4A293869DB00E09285 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 1B99BA3A293869DA00E09285;
+					};
+					1B99BA54293869DB00E09285 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 1B99BA3A293869DA00E09285;
+					};
+				};
+			};
+			buildConfigurationList = 1B99BA36293869DA00E09285 /* Build configuration list for PBXProject "SingleBleCenteral" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B99BA32293869DA00E09285;
+			packageReferences = (
+			);
+			productRefGroup = 1B99BA3C293869DA00E09285 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B99BA3A293869DA00E09285 /* SingleBleCenteral */,
+				1B99BA4A293869DB00E09285 /* SingleBleCenteralTests */,
+				1B99BA54293869DB00E09285 /* SingleBleCenteralUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B99BA39293869DA00E09285 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B99BA46293869DB00E09285 /* Preview Assets.xcassets in Resources */,
+				1B99BA43293869DB00E09285 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B99BA49293869DB00E09285 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B99BA53293869DB00E09285 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B99BA37293869DA00E09285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B99BA41293869DA00E09285 /* ContentView.swift in Sources */,
+				1B16DFE72939985A00B49376 /* DevicesListViewModel.swift in Sources */,
+				1B99BA3F293869DA00E09285 /* SingleBleCenteralApp.swift in Sources */,
+				1B16DFEC2939ADA600B49376 /* DeviceState.swift in Sources */,
+				1B16DFDA2939976900B49376 /* BluetoothManager.swift in Sources */,
+				1B99BA6E2938860500E09285 /* MainButton.swift in Sources */,
+				1B16DFE32939983A00B49376 /* DeviceView.swift in Sources */,
+				1B16DFE12939982E00B49376 /* DeviceViewModel.swift in Sources */,
+				1B16DFE52939984D00B49376 /* DevicesListView.swift in Sources */,
+				1B16DFDD293997EA00B49376 /* MainViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B99BA47293869DB00E09285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B99BA50293869DB00E09285 /* SingleBleCenteralTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B99BA51293869DB00E09285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B99BA5C293869DB00E09285 /* SingleBleCenteralUITestsLaunchTests.swift in Sources */,
+				1B99BA5A293869DB00E09285 /* SingleBleCenteralUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B99BA4D293869DB00E09285 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B99BA3A293869DA00E09285 /* SingleBleCenteral */;
+			targetProxy = 1B99BA4C293869DB00E09285 /* PBXContainerItemProxy */;
+		};
+		1B99BA57293869DB00E09285 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B99BA3A293869DA00E09285 /* SingleBleCenteral */;
+			targetProxy = 1B99BA56293869DB00E09285 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B99BA5D293869DB00E09285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B99BA5E293869DB00E09285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B99BA60293869DB00E09285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SingleBleCenteral/Preview Content\"";
+				DEVELOPMENT_TEAM = VF6G34NR3H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SingleBleCenteral/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Allow using bluetoth?";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EEA.SingleBleCenteral;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B99BA61293869DB00E09285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SingleBleCenteral/Preview Content\"";
+				DEVELOPMENT_TEAM = VF6G34NR3H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SingleBleCenteral/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Allow using bluetoth?";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EEA.SingleBleCenteral;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1B99BA63293869DB00E09285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VF6G34NR3H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EEA.SingleBleCenteralTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SingleBleCenteral.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SingleBleCenteral";
+			};
+			name = Debug;
+		};
+		1B99BA64293869DB00E09285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VF6G34NR3H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EEA.SingleBleCenteralTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SingleBleCenteral.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SingleBleCenteral";
+			};
+			name = Release;
+		};
+		1B99BA66293869DB00E09285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VF6G34NR3H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EEA.SingleBleCenteralUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SingleBleCenteral;
+			};
+			name = Debug;
+		};
+		1B99BA67293869DB00E09285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VF6G34NR3H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EEA.SingleBleCenteralUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SingleBleCenteral;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B99BA36293869DA00E09285 /* Build configuration list for PBXProject "SingleBleCenteral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B99BA5D293869DB00E09285 /* Debug */,
+				1B99BA5E293869DB00E09285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B99BA5F293869DB00E09285 /* Build configuration list for PBXNativeTarget "SingleBleCenteral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B99BA60293869DB00E09285 /* Debug */,
+				1B99BA61293869DB00E09285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B99BA62293869DB00E09285 /* Build configuration list for PBXNativeTarget "SingleBleCenteralTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B99BA63293869DB00E09285 /* Debug */,
+				1B99BA64293869DB00E09285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B99BA65293869DB00E09285 /* Build configuration list for PBXNativeTarget "SingleBleCenteralUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B99BA66293869DB00E09285 /* Debug */,
+				1B99BA67293869DB00E09285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B99BA33293869DA00E09285 /* Project object */;
+}
